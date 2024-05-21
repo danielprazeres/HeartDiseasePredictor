@@ -56,6 +56,16 @@ Creators:
 4. Install dependencies: `pip install -r requirements.txt`
 5. Run the code: `python src/main.py`
 
+## Simulating a Prediction
+
+To simulate a prediction for a new patient, run the following command:
+
+```bash
+python src/predict_patient.py
+```
+
+This will use the saved model to predict whether the new patient has heart disease and generate comparison plots that will be saved in the figures directory.
+
 ## Generated Plots
 
 - ROC Curve:
